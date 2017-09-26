@@ -1,0 +1,10 @@
+player_id,last_name,first_name,season_id,conference,league_id,games_played,minutes,points,o_rebounds,d_rebounds,rebounds,assists,steals,blocks,turnovers,personal_fouls,fg_attempted,fg_made,ft_attempted,ft_made,three_attempted,three_made
+abdursh01,A-Rahim,Shareef,2001,East,NBA,1,21,9,1,5,6,0,0,0,0,2,4,4,0,0,1,1
+adamsmi01,Adams,Michael,1991,East,NBA,1,14,9,,,1,1,,,,,8,4,0,0,,
+aguirma01,Aguirre,Mark,1987,West,NBA,1,12,14,,,1,1,,,,,10,5,3,3,,
+aingeda01,Ainge,Danny,1987,East,NBA,1,19,12,,,3,2,,,,,11,4,2,1,,
+allenra02,Allen,Ray,2001,East,NBA,1,25,15,1,2,3,5,3,0,1,3,17,6,0,0,10,3
+anderke02,Anderson,Kenny,1993,East,NBA,1,16,6,,,4,3,,,,,10,3,0,0,,
+anthoca01,Anthony,Carmelo,2009,West,NBA,1,29,27,4,6,10,2,0,0,2,0,22,13,1,0,4,1
+antonca01,Anthony,Carmelo,2007,West,NBA,1,21,18,2,5,7,1,0,0,2,0,17,8,3,2,0,0
+archina01,Archibald,Nate,1980,East,NBA,1,25,9,,,5,9,,,,,7,4,3,1,,

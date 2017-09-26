@@ -1,0 +1,1282 @@
+
+<!DOCTYPE html>
+<html>
+    <head>        <title>Current Detainees of Boone County Jail</title>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!--  -->
+<!-- MultipleRecordApp: CURRENT DETAINEES. Created: Thu Apr 06 13:51:13 CDT 2017 by ITBRANDO. INQHTM-MUL 20120709 -->
+        <link href="/mrcjava/mrcclasses/SH01_MP/favicon.ico" rel="shortcut icon" />
+        <link href="/mrcjava/mrcclasses/mrc_servlet_ajax.css" rel="stylesheet" type="text/css" />
+        <link href="/mrcjava/mrcclasses/SH01_MP/mrc_default.css?v=0.74" mrcfile="150" rel="stylesheet" type="text/css" />
+        <link href="/mrcjava/mrcclasses/jquery.custom.css" rel="stylesheet" type="text/css" />
+<!--[if !IE]>
+<link href="/mrcjava/mrcclasses/mrc-responsive.css" rel="stylesheet" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="/mrcjava/mrcclasses/font/css/font-awesome-ie7.css" rel="stylesheet" />
+<![endif]-->
+        <style type="text/css">#sort_table_head a {pointer-events: none;}
+          #sort_table_head i {display: none;}
+      #sort_table_head [data-col="LASTNP"] a, 
+      #sort_table_head [data-col="FIRSTP"] a {
+            pointer-events: initial;}
+      #sort_table_head [data-col="LASTNP"] i, 
+      #sort_table_head [data-col="FIRSTP"] i {
+            display: initial;}
+          .viewCount {text-align: center;}
+          .filterOptions.mobileOnly {display: none;}
+          /*@media screen and (min-width: 761px) {
+            body > div.ui-dialog {
+              top: 50% !important;
+              transform: translateY(-50%);
+            }
+          }*/</style>
+<script type="text/javascript" src="/mrcjava/mrcclasses/mpowerapps.js"></script>
+<script type="text/javascript" src="/mrcjava/mrcclasses/SH01_MP/js/mobileSortAndFilter.js" mrcfile="mobileSortAndFilter.js"></script>
+<script type="text/javascript" src="/mrcjava/mrcclasses/SH01_MP/js/websiteNotification.js" mrcfile="websiteNotification.js"></script>
+<script type="text/javascript">
+      var s1 = new Image().src = '/mrcjava/image/ascg.gif',
+          s0 = new Image().src = '/mrcjava/image/descg.gif';
+    </script>
+    </head>
+
+    <body>
+<!-- Begin mrc Header -->
+        <div class="page-wrap">
+<!---->
+<!-- Begin mrc Default Desktop Header -->
+<!-- Begin JavaScript Required Message -->
+<noscript>
+	<div class="warning noJS">
+		The Boone County website <strong>requires</strong> JavaScript to function correctly. Please enable JavaScript in your browser.
+	</div>
+</noscript>
+<!-- End JavaScript Required Message -->
+<!-- Begin Image Bar -->
+<div class="pageHeader DepartmentHeader container">
+  <div class="DepartmentHeaderGraphic">
+    <img src="/mrcjava/mrcclasses/SH01_MP/BCSD-title2.jpg" alt="Boone County Sheriff's Badge" />
+  </div>
+  <div class="DepartmentHeaderInfo">
+    <div class="DepartmentHeaderTitle">
+      Boone County Sheriff's Department
+    </div>
+    <div class="container">
+      <div class="DepartmentHeaderAddress">
+        Boone County Sheriff's Department<br />
+        2121 County Dr.<br />
+        Columbia, MO 65202
+      </div>
+      <div class="DepartmentHeaderNumbers">
+        Office (573) 875-1111<br />
+        Fax (573) 874-8953
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- End Image Bar -->
+<!-- Begin Link Bar -->
+<div id="headerMenu" class="container noPrint">
+  <ul>
+    <li>
+      <a href="http://www.boonecountymo.org/sheriff">
+        Home
+      </a>
+    </li>
+    <li class="mainMenu">
+      <a href="/mrcjava/servlet/SH01_MP.I00040s">
+        Menu
+      </a>
+    </li>
+    <li>
+      <a class="" href="/mrcjava/servlet/SH01_MP.I00030s" target="_new">
+        Help
+      </a>
+    </li>
+    <!--<li class="options">
+      <a href="#"  onclick="viewOptions();">
+        Options
+      </a>
+    </li>-->
+  </ul>
+</div>
+<!-- End Link Bar -->
+<!-- End mrc Default Desktop Header -->
+<!-- Begin BC Custom Mobile Header-->
+<div class="fixedHeader">
+  <div class="fixedHeaderButton bcSealButton">
+  <a class="transparent" href="http://www.boonecountymo.org/Sheriff/">
+    <img alt="Boone County Sheriff's Badge" src="/mrcjava/mrcclasses/SH01_MP/BCSD-title2.jpg" class="bcSeal shBadge" />
+  </a>
+  </div>
+  <div class="fixedHeaderButton menuButton">
+  <!--Link to custom menu page-->
+  <a class="transparent" href="/mrcjava/servlet/SH01_MP.I00040s">Menu</a>
+  </div>
+  <!--<div class="options fixedHeaderButton optionsButton">
+  <a class="transparent" href="#" id="options" onclick="viewOptions();">
+    <i class="fa fa-2x fa-gear optionsIcon">&nbsp;</i>
+  </a>
+  </div>-->
+  <div class="fixedHeaderButton helpButton">
+  <!--Link to help page-->
+  <a class="transparent" href="/mrcjava/servlet/SH01_MP.I00030s">Help</a>
+  </div>
+	<div class="fixedHeaderButton optionsButton hiddenButton">
+  </div>
+  <div class="headerTitle">
+  <!--Link to department home page-->
+  <a class="transparent" href="http://www.boonecountymo.org/Sheriff/">Boone County Sheriff's Department</a>
+  </div>
+</div>
+<!-- End BC Custom Mobile Header-->
+<script type="text/javascript">
+ if (window.location.hostname == "s10ccd5c.boonecountymo.org") {
+   jQuery('a[href="/mrcjava/servlet/BC00_MP.mrcMenu"]').attr(
+     'href',
+     '/mrcjava/servlet/MRCTEST.mrcMenu'
+   );
+ }
+</script>
+<!---->
+
+<!-- End mrc Header -->
+<!-- Begin Title Bar -->
+        <div class="title">Current Detainees of Boone County Jail</div>
+<!-- End Title Bar -->
+<!---->
+<div style="padding: 10px; DISPLAY: none; FONT: 8pt verdana;" id="applicationOptions">
+                    <table class="collapse BCSDTable shadow"  cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr class="even">
+							<!-- -->
+                                <td class="two" valign="top" style="border-bottom:1px solid #000">
+                                <table border="0" cellspacing="1" cellpadding="1" width="350" class="BCSDTable">
+                                    <tbody>
+                                        <tr>
+                                            <th>Saved Searches</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="PADDING-LEFT: 10px; PADDING-RIGHT: 10px" align="left">
+												<div id="search_input"><br />
+													<font size="2"><strong>Name Current Search:</strong><br /></font>
+												&nbsp;&nbsp;&nbsp; <input id="dialogViewName" size="35" name="dialogViewName" />
+												&nbsp;<img style="CURSOR: pointer" onclick="saveView();" alt="" width="20" height="19" src="/mrcjava/image/view_save.png" />
+													<br />
+												</div>
+												<br /><font size="2"><strong>Execute Saved Search:</strong></font><br /><table mrc_app="SH01_MP.I00290s" border="0" cellspacing="1" cellpadding="1"><tbody></tbody></table>
+ <br />
+											</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+							<!-- -->
+                                <td class="two" valign="top" style="border-bottom:1px solid #000">
+                                <table border="0" cellspacing="1" cellpadding="1" width="200" class="BCSDTable">
+                                    <tbody>
+                                        <tr>
+                                            <th>Browser Mode</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="PADDING-LEFT: 10px; PADDING-RIGHT: 10px" align="left">
+												<br /><font size="2"><strong>Select Browsing Mode:</strong></font>
+												<br/><br />
+												<table  id="device_select_table" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+<td>&nbsp;<img src="/mrcjava/image/check.png"/>
+ </td>
+<td><font size="2">&nbsp;&nbsp;<a href="#" class="standard" onclick="switchDevice('pc')">PC</a></font></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td><font size="2">&nbsp;&nbsp;<a href="#" class="standard" onclick="switchDevice('mob')">Mobile</a></font></td>
+</tr>
+</tbody></table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                           
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+<!---->
+        <div class="ajax_content table-wrapper box-shadow" id="mrcMainContent">
+        <form action="SH01_MP.I00290s" autocomplete="off" data-app_type="I" id="FORM_I00290" method="post" name="FORM_I00290">
+<!-- Begin Run Time Message -->
+            <div class="errortext1"></div>
+<!-- End Run Time Message -->
+            <div class="searchWrapper">
+            <div class="search card">
+            <div class="card-title">Search By Name</div>
+            <div class="card-block">
+            <div><label>Last Name:</label> 
+<select class="mrcselect relation" id="F_C_LI_LASTNP" name="rls_LASTNP">            <option title="Equal" value="EQ">EQ</option>
+            <option title="Not equal" value="NE">NE</option>
+            <option title="Greater than or equal" value="GE">GE</option>
+            <option title="Greater than" value="GT">GT</option>
+            <option title="Less than or equal" value="LE">LE</option>
+            <option title="Less than" value="LT">LT</option>
+            <option title="In the list" value="LS">LS</option>
+            <option title="Not in the list" value="NS">NS</option>
+            <option title="In the range" value="RG">RG</option>
+            <option title="Not in the range" value="NR">NR</option>
+            <option title="Contains" value="CT">CT</option>
+            <option title="Does not Contain" value="NC">NC</option>
+            <option title="Contains all" value="CA">CA</option>
+            <option selected="selected" title="Contains any" value="CO">CO</option>
+            <option title="Starts with" value="SW">SW</option>
+            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_LASTNP" name="val_LASTNP" size="32" title="val_LASTNP" type="text" value="" /></div>
+            <div><label>First Name:</label> 
+<select class="mrcselect relation" id="F_C_LI_FIRSTP" name="rls_FIRSTP">            <option title="Equal" value="EQ">EQ</option>
+            <option title="Not equal" value="NE">NE</option>
+            <option title="Greater than or equal" value="GE">GE</option>
+            <option title="Greater than" value="GT">GT</option>
+            <option title="Less than or equal" value="LE">LE</option>
+            <option title="Less than" value="LT">LT</option>
+            <option title="In the list" value="LS">LS</option>
+            <option title="Not in the list" value="NS">NS</option>
+            <option title="In the range" value="RG">RG</option>
+            <option title="Not in the range" value="NR">NR</option>
+            <option title="Contains" value="CT">CT</option>
+            <option title="Does not Contain" value="NC">NC</option>
+            <option title="Contains all" value="CA">CA</option>
+            <option selected="selected" title="Contains any" value="CO">CO</option>
+            <option title="Starts with" value="SW">SW</option>
+            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_FIRSTP" name="val_FIRSTP" size="32" title="val_FIRSTP" type="text" value="" /></div>
+            <div><button class="btn btn-primary" name="btn_search" type="submit"><i class="fa fa-large fa-search">&nbsp;</i> Search</button><button class="btn btn-default" name="btn_reset" type="reset"><i class="fa fa-large fa-repeat">&nbsp;</i> Reset</button>
+<a class="btn btn-default" href="SH01_MP.R00250s?run=2"><i class="fa fa-large fa-file-excel-o">&nbsp;</i> Export Detainees &amp; Charges to Excel</a>
+</div>
+            </div>
+            <div class="card-block"><strong>Run Date: 05/24/17</strong></div>
+            </div>
+            </div>
+<!-- Begin Data Table -->
+<script> jQuery(document).ready(function(){         var greynames=new Array("s1LASTNP","s1FIRSTP","s1MIDDLP","s1PERKEP"); setSortImage2(greynames,'FORM_I00290'); });  </script>
+            <table cellspacing="0" class="collapse data-table shadow responsive">
+                <thead>
+                    <tr class="tr-paging">
+                        <th class="th_left paging_row" colspan="93">&nbsp; 
+<!---->
+<!--<button class="btn btn-primary" name="btn_search" type="submit"><i class="fa fa-large fa-filter">&nbsp;</i> Filter</button>-->
+&nbsp;213 Total Items &nbsp;|&nbsp; Page Size&nbsp; 
+<input class="mrcinput" name="max_rows" size="3" title="max_rowsp" type="text" value="50" /> &nbsp; 
+<!--   -->
+<!--
+<img alt class="to-excel-img" src="/mrcjava/image/format_excel.png" title="Microsoft Excel format" /> &nbsp; -->
+<!-- -->
+                            <div class="pagination pagination-right fixed-pagination">
+                            <ul>
+                                <li>
+<a class="page-button" data-pagetype="btn_top" href="javascript:void(0)"><i class="fa fa-angle-double-left fa-large">&nbsp;</i></a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_prev" href="javascript:void(0)"><i class="fa fa-angle-left fa-large">&nbsp;</i></a>
+</li>
+                                <li class="disabled">
+<a href="#">Page 1 of 5</a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_next" href="javascript:void(0)"><i class="fa fa-angle-right fa-large">&nbsp;</i></a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_btmm" href="javascript:void(0)"><i class="fa fa-angle-double-right fa-large">&nbsp;</i></a>
+</li>
+                            </ul>
+                            </div>
+                        </th>
+                    </tr>
+<!--BEGIN_SORT_TABLE_HEADER-->
+                    <tr class="table-header" id="sort_table_head">
+                        <th data-col="LASTNP">
+<a class="sort-col" data-field="LASTNP" href="javascript:void(0)">Last Name&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th data-col="FIRSTP">
+<a class="sort-col" data-field="FIRSTP" href="javascript:void(0)">First Name&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="MIDDLP">
+<a class="sort-col" data-field="MIDDLP" href="javascript:void(0)">Middle Name&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="SEXCOP">
+<a class="sort-col" data-field="SEXCOP" href="javascript:void(0)">Sex&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="RACECP">
+<a class="sort-col" data-field="RACECP" href="javascript:void(0)">Race&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="AGEBEP">
+<a class="sort-col" data-field="AGEBEP" href="javascript:void(0)">Age&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="CITYMP">
+<a class="sort-col" data-field="CITYMP" href="javascript:void(0)">City <i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile" data-col="STATEP">
+<a class="sort-col" data-field="STATEP" href="javascript:void(0)">State&nbsp;<i class="fa fa-sort">&nbsp;</i></a>
+</th>
+                        <th class="hideOnMobile">&nbsp;</th>
+                    </tr>
+<!--END_SORT_TABLE_HEADER-->
+<!--BEGIN_ADVANCED_SEARCH-->
+<!---->
+                    <tr id="search_table_head" style="display: none;">
+                        <th align="center">
+<a class="nav" href="/mrcjava/mrcclasses/filter_relationship_help.html" linkedtype target="_blank" title="Filter Relationship Help">?</a>
+<select class="mrcselect relation" id="F_C_LI_LASTNP" name="rls_LASTNP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_LASTNP" name="val_LASTNP" size="6" title="val_LASTNP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_FIRSTP" name="rls_FIRSTP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_FIRSTP" name="val_FIRSTP" size="6" title="val_FIRSTP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_MIDDLP" name="rls_MIDDLP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_MIDDLP" name="val_MIDDLP" size="6" title="val_MIDDLP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_SEXCOP" name="rls_SEXCOP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_SEXCOP" name="val_SEXCOP" size="6" title="val_SEXCOP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_RACECP" name="rls_RACECP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_RACECP" name="val_RACECP" size="6" title="val_RACECP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_AGEBEP" name="rls_AGEBEP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_AGEBEP" name="val_AGEBEP" size="6" title="val_AGEBEP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_CITYMP" name="rls_CITYMP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_CITYMP" name="val_CITYMP" size="6" title="val_CITYMP" type="text" value="" /></th>
+                        <th align="center">
+<select class="mrcselect relation" id="F_C_LI_STATEP" name="rls_STATEP">                            <option title="Equal" value="EQ">EQ</option>
+                            <option title="Not equal" value="NE">NE</option>
+                            <option title="Greater than or equal" value="GE">GE</option>
+                            <option title="Greater than" value="GT">GT</option>
+                            <option title="Less than or equal" value="LE">LE</option>
+                            <option title="Less than" value="LT">LT</option>
+                            <option title="In the list" value="LS">LS</option>
+                            <option title="Not in the list" value="NS">NS</option>
+                            <option title="In the range" value="RG">RG</option>
+                            <option title="Not in the range" value="NR">NR</option>
+                            <option title="Contains" value="CT">CT</option>
+                            <option title="Does not Contain" value="NC">NC</option>
+                            <option title="Contains all" value="CA">CA</option>
+                            <option title="Contains any" value="CO">CO</option>
+                            <option title="Starts with" value="SW">SW</option>
+                            <option title="Does not Start with" value="NW">NW</option></select>
+<input class="mrcinput" id="val_STATEP" name="val_STATEP" size="6" title="val_STATEP" type="text" value="" /></th>
+                        <th align="center">&nbsp;</th>
+                    </tr>
+<!--  -->
+</thead>
+<!--END_ADVANCED_SEARCH-->
+                <tbody class="stripe" id="mrc_main_table">
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">ADAMS</td>
+                        <td class="one td_left" data-th="First Name">JEREMIAH</td>
+                        <td class="one td_left" data-th="Middle Name">SETH</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">42</td>
+                        <td class="one td_left" data-th="City">CENTRALIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=23883&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">ANDERSON</td>
+                        <td class="two td_left" data-th="First Name">RICHARD</td>
+                        <td class="two td_left" data-th="Middle Name">KENNETH</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">23</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=66544&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">ARRANT</td>
+                        <td class="one td_left" data-th="First Name">WILLIAM</td>
+                        <td class="one td_left" data-th="Middle Name">MADISON</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">44</td>
+                        <td class="one td_left" data-th="City">CANTONMENT</td>
+                        <td class="one td_left" data-th="State">FL</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78883&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">ARTEAGA</td>
+                        <td class="two td_left" data-th="First Name">BRAYAN</td>
+                        <td class="two td_left" data-th="Middle Name">OSIRIS-CACHO</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">H</td>
+                        <td class="two td_right" data-th="Age">25</td>
+                        <td class="two td_left" data-th="City">JEFFERSON CITY</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=77910&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">AVALOS-AVALOS</td>
+                        <td class="one td_left" data-th="First Name">JOSE</td>
+                        <td class="one td_left" data-th="Middle Name"> </td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">H</td>
+                        <td class="one td_right" data-th="Age">19</td>
+                        <td class="one td_left" data-th="City">ST.ANN</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78424&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BARRETT</td>
+                        <td class="two td_left" data-th="First Name">NICHOLE</td>
+                        <td class="two td_left" data-th="Middle Name">RAYSHEA</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">32</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=49782&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BELL</td>
+                        <td class="one td_left" data-th="First Name">COLIN</td>
+                        <td class="one td_left" data-th="Middle Name">KEITH</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">35</td>
+                        <td class="one td_left" data-th="City">HALLSVILLE</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=33000&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BENNETT</td>
+                        <td class="two td_left" data-th="First Name">EMAS</td>
+                        <td class="two td_left" data-th="Middle Name">CASSELL</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">38</td>
+                        <td class="two td_left" data-th="City">KANSAS CITY</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=42578&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BENNETT</td>
+                        <td class="one td_left" data-th="First Name">ROBERT</td>
+                        <td class="one td_left" data-th="Middle Name">DAVID</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">38</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=33666&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BERARDI</td>
+                        <td class="two td_left" data-th="First Name">DEBORAH</td>
+                        <td class="two td_left" data-th="Middle Name">EVA</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">55</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78005&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BETTS</td>
+                        <td class="one td_left" data-th="First Name">VITA</td>
+                        <td class="one td_left" data-th="Middle Name">LAMETA</td>
+                        <td class="one td_left" data-th="Sex">F</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">44</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=42055&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BIAS</td>
+                        <td class="two td_left" data-th="First Name">JOSEPH</td>
+                        <td class="two td_left" data-th="Middle Name">DAVID</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">39</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=17078&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BLAIR</td>
+                        <td class="one td_left" data-th="First Name">RYAN</td>
+                        <td class="one td_left" data-th="Middle Name">WADE</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">25</td>
+                        <td class="one td_left" data-th="City">MEXICO</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=73590&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BLIGH</td>
+                        <td class="two td_left" data-th="First Name">DAVID</td>
+                        <td class="two td_left" data-th="Middle Name">PATRICK</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">24</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=72591&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BONAPARTE</td>
+                        <td class="one td_left" data-th="First Name">NATHANIEL</td>
+                        <td class="one td_left" data-th="Middle Name">LEROY</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">38</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=18384&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BOND</td>
+                        <td class="two td_left" data-th="First Name">SOPHIA</td>
+                        <td class="two td_left" data-th="Middle Name">LYNN</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">23</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=67252&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BOSS</td>
+                        <td class="one td_left" data-th="First Name">JAFARI</td>
+                        <td class="one td_left" data-th="Middle Name">RASHIDI</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">33</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=60725&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BOYCE-BYNUM</td>
+                        <td class="two td_left" data-th="First Name">HEATHER</td>
+                        <td class="two td_left" data-th="Middle Name">H</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">45</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=8597&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BRAGG</td>
+                        <td class="one td_left" data-th="First Name">ROBERT</td>
+                        <td class="one td_left" data-th="Middle Name">LOUIS</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">47</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=36&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BRINKMAN</td>
+                        <td class="two td_left" data-th="First Name">STEVEN</td>
+                        <td class="two td_left" data-th="Middle Name">WAYNE</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">40</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=13181&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BROOKINS</td>
+                        <td class="one td_left" data-th="First Name">OSCAR</td>
+                        <td class="one td_left" data-th="Middle Name">MENTER</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">28</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78202&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BROWN</td>
+                        <td class="two td_left" data-th="First Name">CLAUDE</td>
+                        <td class="two td_left" data-th="Middle Name">DAVID</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">52</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=73834&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">BROWN</td>
+                        <td class="one td_left" data-th="First Name">TYRELL</td>
+                        <td class="one td_left" data-th="Middle Name">GLENN</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">28</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=77650&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">BURTON</td>
+                        <td class="two td_left" data-th="First Name">BERTILLA</td>
+                        <td class="two td_left" data-th="Middle Name">ANN</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">28</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=62450&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">CALVERT</td>
+                        <td class="one td_left" data-th="First Name">JOHN</td>
+                        <td class="one td_left" data-th="Middle Name">RAY</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">35</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=33863&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CALVIN</td>
+                        <td class="two td_left" data-th="First Name">KAYLA</td>
+                        <td class="two td_left" data-th="Middle Name">ANN</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">29</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=46476&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">CAMPBELL</td>
+                        <td class="one td_left" data-th="First Name">SHANE</td>
+                        <td class="one td_left" data-th="Middle Name">BENEDICT</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">31</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=48663&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CAMPBELL</td>
+                        <td class="two td_left" data-th="First Name">WILLIAM</td>
+                        <td class="two td_left" data-th="Middle Name">SHAKHEEM</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">19</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=74935&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">CAREAGA</td>
+                        <td class="one td_left" data-th="First Name">JOSEPH</td>
+                        <td class="one td_left" data-th="Middle Name">EUGENE</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">47</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=32072&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CARTER</td>
+                        <td class="two td_left" data-th="First Name">DARIAN</td>
+                        <td class="two td_left" data-th="Middle Name">MAURICE</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">24</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=56088&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">CLARK</td>
+                        <td class="one td_left" data-th="First Name">DEVIN</td>
+                        <td class="one td_left" data-th="Middle Name">J</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">42</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=30772&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CLARKSON</td>
+                        <td class="two td_left" data-th="First Name">RODNEY</td>
+                        <td class="two td_left" data-th="Middle Name">ALEXANDER</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">25</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=59211&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">COATES</td>
+                        <td class="one td_left" data-th="First Name">JOSHUA</td>
+                        <td class="one td_left" data-th="Middle Name">EDWARD</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">35</td>
+                        <td class="one td_left" data-th="City">ROCHEPORT</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=52814&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">COLLINS</td>
+                        <td class="two td_left" data-th="First Name">DENNIS</td>
+                        <td class="two td_left" data-th="Middle Name">CARL</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">32</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=38626&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">COLLIVER</td>
+                        <td class="one td_left" data-th="First Name">ASHLEY</td>
+                        <td class="one td_left" data-th="Middle Name">AUTUMN</td>
+                        <td class="one td_left" data-th="Sex">F</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">28</td>
+                        <td class="one td_left" data-th="City">LINCOLN</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78909&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">COOLEY</td>
+                        <td class="two td_left" data-th="First Name">JESSICA</td>
+                        <td class="two td_left" data-th="Middle Name">DAWN</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">26</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=53052&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">COOPER</td>
+                        <td class="one td_left" data-th="First Name">LAMONT</td>
+                        <td class="one td_left" data-th="Middle Name">JR</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">22</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=68106&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CRAMER VON CLAUSBRUCH</td>
+                        <td class="two td_left" data-th="First Name">COREEN</td>
+                        <td class="two td_left" data-th="Middle Name">LEE</td>
+                        <td class="two td_left" data-th="Sex">F</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">27</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=74391&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">CRITES</td>
+                        <td class="one td_left" data-th="First Name">DARREN</td>
+                        <td class="one td_left" data-th="Middle Name">EUGENE</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">51</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=28137&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">CUNNINGHAM</td>
+                        <td class="two td_left" data-th="First Name">MYLONYO</td>
+                        <td class="two td_left" data-th="Middle Name">TRAMIRE</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">24</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=75147&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">DAVIDSON</td>
+                        <td class="one td_left" data-th="First Name">DONALD</td>
+                        <td class="one td_left" data-th="Middle Name">WAYNE</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">56</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=20012&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">DAWSON</td>
+                        <td class="two td_left" data-th="First Name">SHAYNE</td>
+                        <td class="two td_left" data-th="Middle Name">ALLAN</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">41</td>
+                        <td class="two td_left" data-th="City">CUBA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78888&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">DAWSON</td>
+                        <td class="one td_left" data-th="First Name">VINCENT</td>
+                        <td class="one td_left" data-th="Middle Name">GESHAI</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">20</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=72780&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">DEBROWN</td>
+                        <td class="two td_left" data-th="First Name">DONOVAN</td>
+                        <td class="two td_left" data-th="Middle Name">HENRY DARWIN</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">W</td>
+                        <td class="two td_right" data-th="Age">21</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78102&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">DENNY</td>
+                        <td class="one td_left" data-th="First Name">DEANDRE</td>
+                        <td class="one td_left" data-th="Middle Name">LAVELLE</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">B</td>
+                        <td class="one td_right" data-th="Age">20</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=71050&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">DIXON</td>
+                        <td class="two td_left" data-th="First Name">KEITH</td>
+                        <td class="two td_left" data-th="Middle Name">LAMONT</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">27</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=74388&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">DOWNS</td>
+                        <td class="one td_left" data-th="First Name">WILLIAM</td>
+                        <td class="one td_left" data-th="Middle Name">CHARLES</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">W</td>
+                        <td class="one td_right" data-th="Age">42</td>
+                        <td class="one td_left" data-th="City">JEFFERSON CITY</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=54428&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">ERVIN</td>
+                        <td class="two td_left" data-th="First Name">SPENCER</td>
+                        <td class="two td_left" data-th="Middle Name">ALLEN</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">B</td>
+                        <td class="two td_right" data-th="Age">30</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=50480&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="odd">
+                        <td class="one td_left" data-th="Last Name">ESPINOZA</td>
+                        <td class="one td_left" data-th="First Name">LUIS</td>
+                        <td class="one td_left" data-th="Middle Name">MIGUEL</td>
+                        <td class="one td_left" data-th="Sex">M</td>
+                        <td class="one td_left" data-th="Race">H</td>
+                        <td class="one td_right" data-th="Age">27</td>
+                        <td class="one td_left" data-th="City">COLUMBIA</td>
+                        <td class="one td_left" data-th="State">MO</td>
+                        <td class="one td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=70793&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="even">
+                        <td class="two td_left" data-th="Last Name">ESTRADA-ROSAS</td>
+                        <td class="two td_left" data-th="First Name">VICTOR</td>
+                        <td class="two td_left" data-th="Middle Name">H</td>
+                        <td class="two td_left" data-th="Sex">M</td>
+                        <td class="two td_left" data-th="Race">H</td>
+                        <td class="two td_right" data-th="Age">30</td>
+                        <td class="two td_left" data-th="City">COLUMBIA</td>
+                        <td class="two td_left" data-th="State">MO</td>
+                        <td class="two td_left" data-th>
+<a class="_lookup btn btn-primary" height="600" href="SH01_MP.I00500s?PERKEP=78702&amp;hover_redir=&amp;height=600&amp;width=950" linkedtype="I" mrc="returndata" target="_lookup" width="860"><i class="fa fa-large fa-fw fa-list-alt">&nbsp;</i>Details</a>
+</td>
+                    </tr>
+<!--   -->
+                    <tr class="tr-paging">
+                        <th class="th_left paging_row bottomPaging" colspan="93">&nbsp; Detainee Count:&nbsp;213
+                            <div class="pagination pagination-right fixed-pagination" style="margin-left: 2em;">
+                            <ul>
+                                <li>
+<a class="page-button" data-pagetype="btn_top" href="javascript:void(0)"><i class="fa fa-angle-double-left fa-large">&nbsp;</i></a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_prev" href="javascript:void(0)"><i class="fa fa-angle-left fa-large">&nbsp;</i></a>
+</li>
+                                <li class="disabled">
+<a href="#">Page 1 of 5</a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_next" href="javascript:void(0)"><i class="fa fa-angle-right fa-large">&nbsp;</i></a>
+</li>
+                                <li>
+<a class="page-button" data-pagetype="btn_btmm" href="javascript:void(0)"><i class="fa fa-angle-double-right fa-large">&nbsp;</i></a>
+</li>
+                            </ul>
+                            </div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+<!-- End data table -->
+            <div class="viewCount"><strong>This page has been viewed <html>
+    <head>        <title></title>
+    </head>
+
+    <body>
+        1,588,993 
+    </body>
+</html> times since 1/3/06</strong></div>
+<!-- End Background Table -->
+<div id="hiddenfields" class="back" contenteditable="false">
+<input TYPE="hidden" name="slnk" value="0" />
+<input TYPE="hidden" name="sort_col" value="LASTNP" />
+<input TYPE="hidden" name="sort_typ" value="1" />
+<input TYPE="hidden" name="cur_sort_col" value="" />
+<input TYPE="hidden" name="reorder" value="" />
+<input type="hidden" NAME="pageName" value="" />
+<input type="hidden" NAME="preview" value="0" />
+<input type="hidden" name="debug" value="0" />
+<input type="hidden" name="pageNum" value="1" />
+<input type="hidden" name="total_pages" value="5" />
+<input type="hidden" name="total_rows" value=213 />
+<input type="hidden" name="ajax_form" id="ajax_form" value="0" />
+<input type="hidden" NAME="auto_refresh" value="0" />
+<input TYPE="hidden" name="excel" id="toexcel" value="0" />
+<input TYPE="hidden" name="use_udview" id="use_udview" value="0" />
+          </div></form>
+        </div>
+
+<!-- Begin mrc Footer -->
+<!-- Begin Boone County Default Footer -->
+<!-- Begin Bottom Lines of Text -->
+<div class="foottext">
+  <div class="footerMenuLinks noPrint">
+    <a href="http://showmeboone.com" title="www.showmeboone.com">Home</a> | 
+      <a href="http://showmeboone.com/home/accessibility.asp" title="Accessibility">Accessibility</a> |
+      <a href="http://showmeboone.com/Home/CountyOfficials.asp" title="County Officials">County Officials</a> |
+      <a href="http://showmeboone.com/Home/ContactUs.asp" title="Hours &amp; Location">Hours &amp; Location</a> |
+    <a href="http://showmeboone.com/Home/sitemap.asp" title="Site Map">Site Map</a> |
+     <a href="http://showmeboone.com/redirect.asp?url=http://oseda.missouri.edu/cgi-bin/countypage?29019" title="County Fact Sheet">County Fact Sheet</a>
+  <p/>
+  <div class="footerMenuLinksRow">
+    <a href="http://showmeboone.com/ASSESSOR/" target="_top" title="Assessor">Assessor</a>  | 
+    <a href="http://showmeboone.com/AUDITOR/" target="_top" title="Auditor">Auditor</a>  | 
+    <a href="http://showmeboone.com/CLERK/" target="_top" title="County Clerk">County Clerk</a>  | 
+    <a href="http://showmeboone.com/COLLECTOR/" target="_top" title="Collector">Collector</a>  | 
+    <a href="http://showmeboone.com/COMMISSION/" target="_top" title="Commission">Commission</a> | 
+    <a href="http://showmeboone.com/HR/" target="_top" title="Human Resources">Human Resources</a>  | 
+    <a href="http://showmeboone.com/GIS/" target="_top" title="GIS">GIS</a>        
+  </div>
+  <div class="footerMenuLinksRow">
+    <a href="https://showmeboone.com/BCJC/" target="_top" title="Joint Communications">Joint Communications</a> | 
+    <a href="http://showmeboone.com/PA/" target="_top" title="Prosecuting Attorney">Prosecuting Attorney</a> | 
+    <a href="http://showmeboone.com/publicworks/" target="_top" title="Public Works">Public Works</a> |
+    <a href="http://showmeboone.com/PURCHASING/" target="_top" title="Purchasing">Purchasing</a> | 
+    <a href="http://showmeboone.com/PUBLICADMIN/" target="_top" title="Public Administrator">Public Administrator</a>  
+  </div>
+  <div class="footerMenuLinksRow">
+    <a href="http://showmeboone.com/RECORDER/" target="_top" title="Recorder of Deeds">Recorder of Deeds</a>  | 
+    <a href="http://showmeboone.com/ResourceManagement/" target="_top" title="Resource Management">Resource Management</a> |
+    <a href="http://www.boonecountymo.org/sheriff/" target="_top" title="Sheriff">Sheriff</a>  | 
+    <a href="http://showmeboone.com/TREASURER/" target="_top" title="Treasurer">Treasurer</a>
+  </div>
+  </div>
+<p class="noPrint footerListservLink" style="text-align:center; font-weight: bold;"><a href="https://www.showmeboone.com/countylistserv.asp" class="email" target="_top" title="Subscribe to the Boone County News email list">Subscribe</a> to the Boone County News email list.</p>
+  Copyright &#169; 2017 Boone County, Missouri.  All rights reserved.<br/>
+  This Web application was developed by <a href="http://www.boonecountymo.org">Boone County</a>.
+</div>
+<!-- End Bottom Lines of Text -->
+<!-- End Boone County Default Footer -->
+
+</div>
+<!-- End mrc Footer -->
+<!-- do not delete this comment.
+-->
+<!-- Template date: 2014-08-29 -->
+</body>
+</html>
