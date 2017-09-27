@@ -194,12 +194,118 @@ class Mapping:                             # define base class
         for item in iterable:              # iterate through iterable
             self.items_list.append(item)   # populate class list with iterable
             
-    __update = update
+    __update = update                      # safely make method ~private
     
-class MappingSubClass(Mapping):
-    def update(self, keys, values):
-        for item in zip(keys, values):
-            self.items_list.append(item)
+class MappingSubClass(Mapping):            # define derived class
+    def update(self, keys, values):        # define method with same name as base class method
+        for item in zip(keys, values):     # do something different to original method
+            self.items_list.append(item)   # does not erase original method due to ~private status
+            
+# HONESTLY NOT SURE ABOVE THE ABOVE CODE, IT DOESN'T MAKE PERFECT SENSE TO ME                                  
+
+# 6) ~Structs/records
+class Employee:           # create and empty class
+    pass
+
+john = Employee()         # create an empty employee record
+john.name = "John Doe"    # fill the fields of the record
+john.dept = "Services"    # it doesn't appear that you need to define these fields in the class...
+john.salary = 30000       
+
+
+# 7) Exceptions are also classes
+    
+class B:
+    pass
+class C(B):
+    pass
+class D(C):
+    pass
+
+for c in [B, C, D]:
+    try:
+        raise c()
+    except D:
+        print 'D'
+    except C:
+        print 'C'
+    except B:
+        print 'B'
+        
+# this will print B then C then D because it iterates through the classes
+# and prints the letter corresponding to the class name it is currently on
+# i.e. first it is on B, therefore it does not raise D or C but B instead
+# and so on. If you reversed the 'except' clauses then it would print
+# B then B then B because each of the classes inherits from B and this exception
+# is always raised first.
+
+############################################################################
+
+# Iterators
+
+# You can iterate over iterable items using the 'for' keyword, behind the scenes
+# this creates an 'iter' object and then calls next() on that object to move through
+# its components in order. Once it reaches the end of the iteratble the next() method
+# raises a StopIteration exception and terminates.
+
+s = 'abc'    # create string
+it = iter(s) # create iterable
+it.next()    # returns a
+it.next()    # returns b
+it.next()    # returns c
+it.next()    # raises StopIteration exception
+
+# You can add this iterator behaviour to classes.
+
+class Reverse:                           # define class
+    """Iterator which loops over a sequence backwards."""
+    def __init__(self, data):            # define initiator method which takes data var
+        self.data = data                 # instantiate class object (input data)
+        self.index = len(data)           # instantiate class object (lenght of data)
+        
+    def __iter__(self):                  # creates an iterable object, enables the use of 'for' and 'in'
+        return self                      # returns an object which is iter() with a next() method
+    
+    def next(self):                      # method which iterates backwards over data
+        if self.index == 0:              # stop iteration if full data has been read
+            raise StopIteration          # stop
+        self.index = self.index - 1      # decrement index each time
+        return self.data[self.index]     # return next index of data in reverse order
+    
+rev = Reverse("dwyane wade")             # create instance of class with string
+iter(rev)                                # convert class instance into iterable (possible due to __iter__)
+for char in rev:                         # iterate over using now enabled 'for' and 'in'
+    print char                           # print chars in reverse order
+    
+############################################################################ 
+
+# Generators
+
+# Generators are simple and powerful ways of creating iterators or iterable
+# objects. The code below does exactly the same as the code above but in
+# far fewer lines because it automatically generates the iter() and next()
+# methods. Also, it maintains variable and execution state between calls
+# so you don't have to specify self.index or self.data. Finally, when generators
+# stop they automatically call StopIteration, again meaning you don't have
+# to write extra code. Essentially you get all the functionality of the above
+# iterator code except in the shortened code of a basic function.
+
+# Generators use the 'yield' keyword which is essentially the same as return;
+
+def reverse(data):
+    for index in range(len(data) - 1, -1, -1):  # start, stop, step = range(x,y,z)
+        yield data[index]                       # return value
+        
+for char in reverse("lebron james"):            # run generator/iterable on string
+    print char
+    
+############################################################################    
+    
+# Random extras
+xVals = [1,5,2,3,8]             # list of ints
+yVals = [5,2,5,1,2]             # list of ints
+zippedVals = zip(xVals,yVals)   # pairs lists into tuples e.g. (1,5),(5,2)...
+print zippedVals
 
 
 
@@ -215,11 +321,7 @@ class MappingSubClass(Mapping):
 
 
 
-          
-  
-          
-          
-          
-          
-          
-          
+
+
+
+ 

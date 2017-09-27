@@ -59,6 +59,8 @@ df[df['age'].isnull()]
 df[(df['animal'] == 'cat') & (df['age'] < 3)]
 #show animals between 2 and 4
 df[df['age'].between(2, 4)]
+#extract columns Q1 to Q15, all rows
+df = df.ix[:,'Q1':'Q15']
 
 ##############################################################################
 
@@ -86,6 +88,23 @@ df['visits'].sum()
 df.groupby('animal')['age'].mean()
 #sum counts for each animal
 df['animal'].value_counts()
+
+##############################################################################
+
+#
+
+# read inputs into df
+data = pd.read_csv(input_data, index_col=0) # set first col as row names
+
+# extract column range from df
+factor_vars = factors.ix[:,'Q1':'Q15']
+
+# iterate over df
+for index, row in data_vars.iterrows(): # each iterable is a tuple of index and values hence 'index, row'
+    rowVals = row
+    
+# multiply series by one another
+rowVals * rowVals # creates dot product series
 
 ##############################################################################
 

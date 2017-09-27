@@ -1,0 +1,21 @@
+Loan_ID,Gender,Education,Loan_Status
+ST111,M,Not Graduate,Y
+ST112,M,Graduate,Y
+ST113,F,Graduate,Y
+ST114,M,Not Graduate,Y
+ST115,F,Graduate,Y
+ST116,F,Not Graduate,N
+ST117,F,Graduate,N
+ST118,F,Graduate,Y
+ST119,M,Graduate,Y
+ST120,M,Graduate,Y
+ST121,F,Not Graduate,Y
+ST122,M,Graduage,Y
+ST123,F,Graduate,Y
+ST124,F,Not Graduate,Y
+ST125,F,Not Graduate,N
+ST126,M,Not Graduate,N
+ST127,M,Not Graduate,N
+ST128,M,Graduate,Y
+ST129,M,Graduate,N
+ST130,F,Graduate,Y
